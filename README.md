@@ -130,7 +130,7 @@ From our findings and analysis, we can deduce that the decrease in trend for sta
 
 SAT test in 2019 show that the state of California did better in ERW rather than Math which effected the total benchmark percentage. Although this might be troubling, but we still see an upside in participation rate. This might be due to the fact that 28 out of 38 colleges majors accept students with lower ERW score, rather than Math. Thus they would have more option and higher chance of getting the major of their choice.
 
-In order to be secure above average number of college, for ACT participant is it recommended to score at least 27.3 and for SAT test at least 1263. On top of the, if participant has a particular major in mind that has a lower benchmark for ERW, it is safe to say that the recommended test will be SAT Test.
+In order to be secure above average number of college, for ACT participant is it recommended to score at least 27.3 and for SAT test at least 1263. On top of that, if participant has a particular major in mind that has a lower benchmark for ERW, it is safe to say that the recommended test will be SAT Test.
 
 
 ---

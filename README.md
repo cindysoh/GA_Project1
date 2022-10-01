@@ -45,7 +45,7 @@ We will then use the test taker's score to identify which major and college will
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |state|object|act_cali|Name of the State in America|
-|participation_rate|float|act_cali|The percentage of test takers over graduates<br> (units percent to two decimal places 0.31 means 31%)|
+|participation_rate|float|act_cali|The percentage of test takers over graduates (units percent to two decimal places 0.31 means 31%)|
 |composite|float|act_cali|Mean ACT Composite score|
 |year|object|act_cali|The year of the ACT Test|
 
@@ -54,17 +54,17 @@ We will then use the test taker's score to identify which major and college will
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |state|object|sat_cali|Name of the State in America|
-|participation_rate|float|sat_cali|The percentage of test takers over graduates<br> (units percent to two decimal places 0.53 means 53%)|
+|participation_rate|float|sat_cali|The percentage of test takers over graduates (units percent to two decimal places 0.53 means 53%)|
 |ebrw|int|sat_cali|Mean SAT Evidence-Based Reading & Writing score|
 |math|int|sat_cali|Mean SAT Math score|
-|total|int|sat_cali|Total SAT score of both Evidence-Based Reading & Writing<br> and Math score|
+|total|int|sat_cali|Total SAT score of both Evidence-Based Reading & Writing and Math score|
 |year|object|sat_cali|The year of the SAT Test|
 
 #### 3. 'act19ca.csv' This dataset shows ACT test data for State of California for year of 2019 with school, district and county details.
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
-|cds|int|act19ca|This 14-digit code is the official, unique identification of a school within California.<br> The first two digits identify the county, the next five digits identify the school district,<br> and the last seven digits identify the school.|
+|cds|int|act19ca|This 14-digit code is the official, unique identification of a school within California. The first two digits identify the county, the next five digits identify the school district, and the last seven digits identify the school.|
 |rtype|object|act19ca|The type of record. S is school record, D is district record, C is county record, X is state record.|
 |school|object|act19ca|Name of the school in State of California|
 |district|object|act19ca|Name of the district the school is in|
@@ -82,19 +82,19 @@ We will then use the test taker's score to identify which major and college will
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
-|cds|int|sat19ca|This 14-digit code is the official, unique identification of a school within California.<br> The first two digits identify the county, the next five digits identify the school district,<br> and the last seven digits identify the school.|
+|cds|int|sat19ca|This 14-digit code is the official, unique identification of a school within California. The first two digits identify the county, the next five digits identify the school district, and the last seven digits identify the school.|
 |rtype|object|sat19ca|The type of record. S is school record, D is district record, C is county record, X is state record.|
 |school|object|sat19ca|Name of the school in State of California|
 |district|object|sat19ca|Name of the district the school is in|
 |county|object|sat19ca|Name of the county the school district is in|
 |enrolled|int|sat19ca|The number of graduates that enrolled in SAT Test for year 2019|
 |testtakers|int|sat19ca|The number of graduates that participate in SAT Test for year 2019|
-|erw_number_bm|int|sat19ca|The number of participant that score above benchmark in Evidence-Based Reading & Writing<br> of Grade 12 students|
-|erw_percent_bm|float|sat19ca|The percentage of participant that score above benchmark in Evidence-Based Reading & Writing<br> of Grade 12 students (units percent to two decimal places 30.39 means 30.39%)|
+|erw_number_bm|int|sat19ca|The number of participant that score above benchmark in Evidence-Based Reading & Writing of Grade 12 students|
+|erw_percent_bm|float|sat19ca|The percentage of participant that score above benchmark in Evidence-Based Reading & Writing of Grade 12 students (units percent to two decimal places 30.39 means 30.39%)|
 |math_number_bm|int|sat19ca|The number of participant that score above benchmark in Math of Grade 12 students|
-|math_percent_bm|float|sat19ca|The percentage of participant that score above benchmark in Math of Grade 12 students<br> (units percent to two decimal places 13.73 means 13.73%)|
-|total_number_bm|int|sat19ca|The number of participant that score above benchmark in both Evidence-Based Reading & Writing<br> and Math of Grade 12 students|
-|total_percent_bm|int|sat19ca|The percentage of participant that score above benchmark in both Evidence-Based Reading & Writing<br> and Math of Grade 12 students (units percent to two decimal places 13.73 means 13.73%)|
+|math_percent_bm|float|sat19ca|The percentage of participant that score above benchmark in Math of Grade 12 students (units percent to two decimal places 13.73 means 13.73%)|
+|total_number_bm|int|sat19ca|The number of participant that score above benchmark in both Evidence-Based Reading & Writing and Math of Grade 12 students|
+|total_percent_bm|int|sat19ca|The percentage of participant that score above benchmark in both Evidence-Based Reading & Writing and Math of Grade 12 students (units percent to two decimal places 13.73 means 13.73%)|
 
 #### 5. 'sat19_col.csv' This dataset shows SAT score in relevance to the intended college major for year 2019
 
@@ -102,7 +102,7 @@ We will then use the test taker's score to identify which major and college will
 |---|---|---|---|
 |college_major|object|sat19_col|List of the intended college major|
 |testtakers|int|sat19_col|The number of test takers for the particular college major|
-|percent|float|sat19_col|The percantage of test takers for the particular college major out of all the test takers in 2019<br> (units percent to two decimal places 0.01 means 1%)|
+|percent|float|sat19_col|The percantage of test takers for the particular college major out of all the test takers in 2019 (units percent to two decimal places 0.01 means 1%)|
 |total|int|sat19_col|Total SAT score of both Evidence-Based Reading & Writing and Math score for the particular college major|
 |readingwriting|int|sat19_col|Mean SAT Evidence-Based Reading & Writing score for the particular college major|
 |math|int|sat19_col|Mean SAT Math score for the particular college major|
@@ -113,10 +113,10 @@ We will then use the test taker's score to identify which major and college will
 |---|---|---|---|
 |school|object|sat_act_col|List of colleges|
 |test_optional|object|sat_act_col|'Yes' or 'No' value. Yes, if the particular college has adopt test optional policy|
-|test_optional_year|object|sat_act_col|For school that are test optional. List of year(s) that the school will adopt<br> test optional policy, or remain permanent|
+|test_optional_year|object|sat_act_col|For school that are test optional. List of year(s) that the school will adopt test optional policy, or remain permanent|
 |policy_details|object|sat_act_col|The detail of school test optional policy|
 |number_of_applicants|int|sat_act_col|The number of applicants for each school|
-|accept_rate|int|sat_act_col|The accptance rate for each school<br> (units percent to three decimal places 0.043 means 4.3%)|
+|accept_rate|int|sat_act_col|The accptance rate for each school (units percent to three decimal places 0.043 means 4.3%)|
 |sat_low|float|sat_act_col|The range of SAT total score within the lower percentile|
 |sat_high|float|sat_act_col|The range of SAT total score within the higher percentile|
 |act_low|float|sat_act_col|The range of ACT total score within the lower percentile|
